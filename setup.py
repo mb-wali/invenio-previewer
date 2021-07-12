@@ -22,6 +22,7 @@ tests_require = [
     'invenio-db[versioning]>=1.0.2',
     'mock>=1.3.0',
     'pytest-invenio>=1.4.0',
+    'Flask>=1.1.4,<2.0.0',
 ]
 
 extras_require = {
