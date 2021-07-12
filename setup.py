@@ -19,7 +19,7 @@ history = open('CHANGES.rst').read()
 tests_require = [
     'invenio-config>=1.0.2',
     'invenio-theme>=1.3.0a10',
-    'invenio-db[versioning]>=1.0.2',
+    'invenio-db[versioning]>=1.0.9',
     'mock>=1.3.0',
     'pytest-invenio>=1.4.0',
 ]
@@ -31,6 +31,9 @@ extras_require = {
     'files': [
         'invenio-files-rest>=1.0.0',
         'invenio-records-files>=1.1.0',
+    ],
+     'sqlite': [
+        'invenio-db>=1.0.9',
     ],
     'tests': tests_require,
 }
