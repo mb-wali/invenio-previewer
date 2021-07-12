@@ -26,7 +26,7 @@ tests_require = [
 
 extras_require = {
     'docs': [
-        'Sphinx>=3,<4',
+        'Sphinx>=3.3.1,<3.4.2',
     ],
     'files': [
         'invenio-files-rest>=1.0.0',
@@ -46,7 +46,7 @@ setup_requires = [
 install_requires = [
     'cchardet>=1.0.0',
     'invenio-assets>=1.2.2',
-    'invenio-base>=1.2.3',
+    'invenio-base>=1.2.4',
     'invenio-formatter>=1.0.3',
     'invenio-i18n>=1.3.0a1',
     'invenio-pidstore>=1.2.0',
