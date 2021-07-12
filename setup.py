@@ -32,9 +32,6 @@ extras_require = {
         'invenio-files-rest>=1.0.0',
         'invenio-records-files>=1.1.0',
     ],
-     'sqlite': [
-        'invenio-db>=1.0.9',
-    ],
     'tests': tests_require,
 }
 
